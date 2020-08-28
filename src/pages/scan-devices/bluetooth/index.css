@@ -1,0 +1,91 @@
+@import "../../../theme/variables.css";
+
+.main-page {
+    overflow: hidden;
+    position: relative;
+}
+
+.main-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    --background: var(--secondary-dark);
+    box-shadow: 0px -2px 5px 2px #000000;
+}
+
+.footer-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    --background: var(--secondary-dark);
+    box-shadow: 0px 2px 5px 2px #000000;
+
+}
+
+.tab-bar {
+    height: 5rem;
+    --background: var(--secondary-dark);
+    box-shadow: 0px 2px 5px 2px #000000;
+    border-top: 0;
+    border-bottom: 0px;
+    border-right: 0;
+    border-left: 0;
+}
+
+.main-toolbar-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 250;
+    color: #ffffff;
+}
+
+.mid-content {
+    overflow-y: visible;
+    z-index: 1;
+    --background: var(--primary-dark);
+    height: calc(100% - 7rem);
+}
+
+.next-button {
+    padding: 0.4rem;
+    font-size: 1.7rem;
+    color: #ffffff;
+    z-index: 5;
+}
+
+.single-refresh-spinner {
+    margin-top: 8px;
+    z-index: 1;
+    right: calc(50% - 14px);
+    position: absolute;
+    color: #ffffff;
+}
+
+.device-list {
+    width: 20rem;
+    margin-left: calc(50% - 10rem);
+    background-color: var(--primary-dark);
+}
+
+.button-wifi-label, .button-bluetooth-label {
+    font-size: 0.8rem;
+    font-weight: 350;
+}
+
+.button-bluetooth {
+    color: #ffffff;
+}
+.button-wifi {
+    color: gray;
+}
+
+.button-highlight {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%) !important;
+}
+
+  

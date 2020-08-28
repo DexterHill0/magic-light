@@ -1,0 +1,7 @@
+{
+  "name": "magic-light",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
